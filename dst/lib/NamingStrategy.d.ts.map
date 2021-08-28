@@ -1,0 +1,1 @@
+{"version":3,"file":"NamingStrategy.d.ts","sourceRoot":"","sources":["../../src/lib/NamingStrategy.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,qBAAqB,EAAE,MAAM,SAAS,CAAC;AAGhD,qBAAa,cAAe,SAAQ,qBAAqB;IACvD,SAAS,CAAC,UAAU,EAAE,MAAM,EAAE,iBAAiB,EAAE,MAAM,GAAG,SAAS,GAAG,MAAM;IAI5E,UAAU,CAAC,YAAY,EAAE,MAAM,EAAE,UAAU,EAAE,MAAM,EAAE,gBAAgB,EAAE,MAAM,EAAE,GAAG,MAAM;CASzF"}
