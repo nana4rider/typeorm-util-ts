@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TypeormLog4jsLogger = void 0;
+exports.Log4jsLogger = void 0;
 // base: https://github.com/typeorm/typeorm/blob/master/src/logger/FileLogger.ts
-class TypeormLog4jsLogger {
+class Log4jsLogger {
     // -------------------------------------------------------------------------
     // Constructor
     // -------------------------------------------------------------------------
@@ -89,5 +89,5 @@ class TypeormLog4jsLogger {
     }
     ;
 }
-exports.TypeormLog4jsLogger = TypeormLog4jsLogger;
-//# sourceMappingURL=TypeormLog4jsLogger.js.map
+exports.Log4jsLogger = Log4jsLogger;
+//# sourceMappingURL=Log4jsLogger.js.map

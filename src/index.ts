@@ -1,3 +1,5 @@
-import { TypeormLog4jsLogger } from './lib/TypeormLog4jsLogger';
+import { DateTimeTransformer } from './lib/DateTimeTransformer';
+import { Log4jsLogger } from './lib/Log4jsLogger';
+import { NamingStrategy } from './lib/NamingStrategy';
 
-export { TypeormLog4jsLogger };
+export { DateTimeTransformer, Log4jsLogger, NamingStrategy };

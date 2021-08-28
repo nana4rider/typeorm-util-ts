@@ -1,6 +1,6 @@
 import { Logger } from 'log4js';
 import { Logger as TypeormLogger, QueryRunner } from 'typeorm';
-export declare class TypeormLog4jsLogger implements TypeormLogger {
+export declare class Log4jsLogger implements TypeormLogger {
     private logger;
     constructor(logger: Logger);
     /**
@@ -34,4 +34,4 @@ export declare class TypeormLog4jsLogger implements TypeormLogger {
      */
     protected stringifyParams(parameters: any[]): string | any[];
 }
-//# sourceMappingURL=TypeormLog4jsLogger.d.ts.map
+//# sourceMappingURL=Log4jsLogger.d.ts.map

@@ -2,7 +2,7 @@ import { Logger } from 'log4js';
 import { Logger as TypeormLogger, QueryRunner } from 'typeorm';
 
 // base: https://github.com/typeorm/typeorm/blob/master/src/logger/FileLogger.ts
-export class TypeormLog4jsLogger implements TypeormLogger {
+export class Log4jsLogger implements TypeormLogger {
   // -------------------------------------------------------------------------
   // Constructor
   // -------------------------------------------------------------------------

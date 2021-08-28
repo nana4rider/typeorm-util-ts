@@ -1,3 +1,5 @@
-import { TypeormLog4jsLogger } from './lib/TypeormLog4jsLogger';
-export { TypeormLog4jsLogger };
+import { DateTimeTransformer } from './lib/DateTimeTransformer';
+import { Log4jsLogger } from './lib/Log4jsLogger';
+import { NamingStrategy } from './lib/NamingStrategy';
+export { DateTimeTransformer, Log4jsLogger, NamingStrategy };
 //# sourceMappingURL=index.d.ts.map
