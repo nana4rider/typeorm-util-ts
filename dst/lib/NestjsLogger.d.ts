@@ -1,5 +1,5 @@
 import { Logger as TypeOrmLogger } from 'typeorm';
-export declare class DatabaseLogger implements TypeOrmLogger {
+export declare class NestjsLogger implements TypeOrmLogger {
     private readonly logger;
     logQuery(query: string, parameters?: unknown[]): void;
     logQueryError(error: string, query: string, parameters?: unknown[]): void;

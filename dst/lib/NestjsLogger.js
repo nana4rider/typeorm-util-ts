@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DatabaseLogger = void 0;
+exports.NestjsLogger = void 0;
 const common_1 = require("@nestjs/common");
-class DatabaseLogger {
+class NestjsLogger {
     constructor() {
         this.logger = new common_1.Logger('SQL');
     }
@@ -41,5 +41,5 @@ class DatabaseLogger {
         }
     }
 }
-exports.DatabaseLogger = DatabaseLogger;
+exports.NestjsLogger = NestjsLogger;
 //# sourceMappingURL=NestjsLogger.js.map
